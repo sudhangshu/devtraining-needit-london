@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Steps to approve and fulfill NeedIt requests.</description>
+        <internal_name>needit_fulfillment</internal_name>
+        <label_cache>[{"name":"46817b3f-0a8c-47e3-b4e8-ec65a7c159f7.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"46817b3f-0a8c-47e3-b4e8-ec65a7c159f7.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"ce8965f9-649d-4b68-b769-fdfc2fca0c7c.parameter1","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"ce8965f9-649d-4b68-b769-fdfc2fca0c7c.parameter","label":"1➛Attachment Records","reference":"sys_attachment","reference_display":"Attachment","type":"records","base_type":"records"},{"name":"Created_1.table_name","label":"Trigger➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"table_name","base_type":"table_name"},{"name":"49d7abd0-81e8-42e2-b6bd-c226785d3c5b.parameter1","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"49d7abd0-81e8-42e2-b6bd-c226785d3c5b.parameter","label":"1➛Attachment Records","reference":"sys_attachment","reference_display":"Attachment","type":"records","base_type":"records"},{"name":"15a3d6ac-70be-4f8f-a15c-52733de13f06.parameter1","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"15a3d6ac-70be-4f8f-a15c-52733de13f06.parameter","label":"1➛Attachment Records","reference":"sys_attachment","reference_display":"Attachment","type":"records","base_type":"records"},{"name":"Created_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"891c9e9e-caa4-415e-86c5-94cf81d283fd.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"}]</label_cache>
+        <master>true</master>
+        <name>NeedIt Fulfillment</name>
+        <outputs/>
+        <parent_flow display_value="NeedIt Fulfillment">68776103db22b300721585184b961919</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 07:23:39</sys_created_on>
+        <sys_id>9ba2ba2fdb223300721585184b96191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Fulfillment</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_9ba2ba2fdb223300721585184b96191a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 07:23:39</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=9ba2ba2fdb223300721585184b96191a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9ba2ba2fdb223300721585184b96191a"/>
+</record_update>
